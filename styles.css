@@ -1,8 +1,6 @@
+
 h1{
     color: #46484c;
-}
-h1,h2,h3,h4,h5,h6{
-    background-color: seagreen;
 }
 b{
     color: #8b8b8bcc;
@@ -14,4 +12,50 @@ button{
 
 body{
     background-color: #fffbf7;
+}
+.header {
+    margin: 40px 20px auto 20px;
+    font-size: 0px;
+    line-height: 45px;
+    height: 45px;
+    font-family: sans-serif;
+  }
+  .header > *{
+      display: inline-block;
+      font-size: 16px;
+      vertical-align: middle;
+      height: 100%;
+      line-height: 45px;;
+  }
+  li{
+    display: inline;
+    margin-left: 25px;
+    margin-left: 25px;
+  }
+  .logo{
+      width: 15%;
+  }
+  .navbar{
+    width: 70%;
+    text-align: left;
+    
+  }
+  .actions{
+      width: 15%;
+      text-align: right;
+      font-size: 14px;
+  }
+  .actions > *{
+    margin-left: 10px;
+    margin-left: 10px;
+}
+.actions a{
+    color: #67b54b;
+}
+.actions button {
+    background-color: #67b54b;
+    color: white;
+    padding: 12px, 14px;
+    border-radius: 5px;
+    border: none;
 }
