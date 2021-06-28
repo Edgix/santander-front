@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+.container > .item{
+    background-color: gray;
+    width: 30%;
+    height: 50px;
+}
+.main{
+    display: flex;
+}
+.main div:nth-of-type(1){
+    flex-grow: 1;
+}
+.main div:nth-of-type(4){
+    flex-grow: 1;
+}
